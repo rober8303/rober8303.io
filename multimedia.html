@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multimedia</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Multimedia</h1>
     <div id="video">
-        <video src="/assets/media/oso.mp4" controls>
+      <video src="/assets/media/oso.mp4" controls>
         Tu navegador no soporta la etiqueta video
-    </video>
+      </video>
     </div>
 
-</body>
+    <div id="audio">
+        <audio src="/assets/media/NoTeOlvidesDePonerElWhereEnElDeleteFrom.mp3" controls>
+        <p>Tu navegador no soporta la etiqueta audio</p>
+        </audio>
+    </div>
+
+    <div id="object">
+        <h2>Object</h2>
+        <h3>Video:</h3>
+        <object data="/assets/media/oso.mp4" type="video/mp4"></object>
+        
+        <br>
+
+        <h3>Archivos externos(por ejemplo PDF)</h3>
+        <object data="https://gutl.jovenclub.cu/wp-content/uploads/2013/10/El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf" type="application/pdf"
+        width="300" height="450"></object>
+
+        <h3>Marca: </h3>
+    </div>
+    <br>
+    <br>
+    <object data="https://www.marca.es" type="" width="800" height="600"></object>
+  </body>
 </html>
